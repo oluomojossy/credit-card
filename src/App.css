@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.gradient{
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(15, 0, 15), rgb(31, 6, 6), rgb(6, 0, 19), rgb(15, 0, 15), rgb(20, 1, 16));
+}
+.whitespace{
+    width: 70%;
+    height: 100%;
+    background: white;
+}
+.cardholder{
+    width: 80%;
+    height:70%;
+    /* background: blue; */
+    position: absolute;
+    display: flex;
+}
+
+
+.cardDiv{
+    width: 50%;
+    height: 100%;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 20px;
+}
+.fontcard{
+    width: 60%;
+    height: 42%;
+    background: linear-gradient(to right, purple, rgb(233, 32, 32), rgb(65, 65, 194), rgb(59, 4, 59));
+    border-radius: 5px;
+    margin-right: 12%;
+}
+.circleDiv{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    gap: 10px;
+    /* background: blue; */
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.firstcircle{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+}
+.secondcircle{
+    width: 12px;
+    height: 12px;
+    /* background: white; */
+    border: 1px solid wheat;
+    border-radius: 50%;
+}
+.number{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name-dateDiv{
+    width: 88%;
+    height: max-content;
+    /* background: blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+    color: lavender;
+    margin-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    /* font-weight: lighter; */
+
+}
+.name-dateDiv p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.backcardDiv{
+    width: 100%;
+    height: 42%;
+    /* background: goldenrod; */
+    /* border-radius: 5px; */
+}
+.backcard{
+    width: 60%;
+    height: 100%;
+    background: wheat;
+    border-radius: 5px;
+    margin-left: 12%;
+    position: relative;
+}
+.black{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    margin-top: 13px;
+    /* padding-top: 20px; */
+    background: #000000e1;
+}
+.cvc{
+    width: 80%;
+    height: 30px;
+    margin-left: 10%;
+    margin-top: 22%;
+    background: #0000006c;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+    font-size: 12px;
+    color: wheat;
+}
+.writeup{
+    width: 80%;
+    height: max-content;
+    /* background: #000; */
+    position: absolute;
+    margin-left: 10%;
+    /* font-weight: ; */
+    margin-top: 40%;
+    text-align: center;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.575);
+}
+.form{
+    width: 50%;
+    height: 100%;
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardName{
+    display: flex;
+    flex-direction: column;
+}
+.cardName label{
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.cardName input{
+    width:320px ;
+    height: 30px;
+    padding-left: 7px;
+}
+
+.card-number{
+    display: flex;
+    flex-direction: column;
+}
+.card-number label{
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.card-number input{
+    width:320px ;
+    height: 30px;
+    padding-left: 7px;
+}
+.exp-cvcDiv{
+    width: 59%;
+    /* background: green; */
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+}
+
+.exp-date{
+    display: flex;
+    flex-direction: column;
+}
+.exp-date label{
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.exp-date input{
+    width:100px ;
+    height: 30px;
+    padding-left: 7px;
+}
+
+.c-v-c{
+    display: flex;
+    flex-direction: column;
+}
+.c-v-c label{
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.c-v-c input{
+    width:100px ;
+    height: 30px;
+    padding-left: 7px;
+}
+button{
+    width: 320px;
+    height: 30px;
+    margin-top: 10px;
+    background: rgb(31, 6, 6);
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    border: none;
+}
